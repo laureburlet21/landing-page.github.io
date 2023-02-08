@@ -1,0 +1,149 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner, .global {
+    border-radius: 5px;
+    margin: 15px auto;
+    max-width: 600px;
+    padding: 30px;
+    box-shadow: 0 0 8px 0px #0000006e;
+    text-align: center;
+}
+
+.container { 
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+}
+
+h2 {
+    font-size: 15pt;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+p.detail {
+    font-size: 12pt;
+    color: rgb(63, 63, 63);
+}
+
+p.desc {
+    max-height: 50px;
+    text-overflow: ellipsis;
+}
+
+.cta {
+    padding: 8px;
+    margin: 20px;
+    background-color: rgb(60, 121, 233);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: calc(33% - 20px);
+    padding: 5px;
+    margin: 5px;
+    min-width: 163px;
+}
+
+img.picture {
+    width: 60px;
+    height: 60px;
+    padding:20px 0;
+}
+
+h3 {
+    color: rgb(0, 35, 116);
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    position:relative;
+}
+
+.landing-image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #f3f3f3d5;
+    color: #080808;
+    padding: 30px 0;
+    border-top: 1px solid #777777
+}
+
+.container_foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;;
+}
+
+.footer-description, .footer-links, .footer-socials{
+    width: 33%;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.footer-links a {
+    color: #3a62d1;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.socials a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #080808;
+    margin-right: 10px;
+}
+
+.socials a:hover {
+    background-color: #080808;
+}
+
+img.logo {
+    width: 40px;
+    height: 40px;
+}
